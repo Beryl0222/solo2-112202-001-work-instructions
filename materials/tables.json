@@ -1,0 +1,40 @@
+{
+  "columns": {
+    "cards.tsv": [
+      "id",
+      "card",
+      "parent",
+      "authority",
+      "effective",
+      "text"
+    ],
+    "tickets.tsv": [
+      "id",
+      "assembly",
+      "part",
+      "station",
+      "required"
+    ],
+    "events.tsv": [
+      "id",
+      "piece",
+      "at",
+      "event",
+      "detail"
+    ],
+    "assembly_rules.tsv": [
+      "id",
+      "assembly_family",
+      "station",
+      "handoff"
+    ]
+  },
+  "references": [
+    [
+      "events.tsv",
+      "piece",
+      "tickets.tsv"
+    ]
+  ],
+  "compound_keys": []
+}

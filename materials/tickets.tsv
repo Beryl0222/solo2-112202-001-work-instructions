@@ -1,0 +1,6 @@
+id	assembly	part	station	required
+K21	K2-87	北侧弧段	北线	是
+K22	K2-87	门板	北线	是
+K23	K2-87	连接件	北线	是
+K24	K2-88	外缘	北线	是
+K25	K2-89	北侧弧段	南线	是
